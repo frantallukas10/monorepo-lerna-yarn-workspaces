@@ -7,7 +7,7 @@
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
     "test:custom": "lerna run test --scope={@yarn-workspace-example/common, @yarn-workspace-example/server}",
-    "test": "lerna run test",
+    "test": "lerna run test --since",
     "test:only:server": "lerna run test --scope=@yarn-workspace-example/server"
   },
   "author": "Ing. Lukáš Frantál",
@@ -16,6 +16,8 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
     "lerna": "^3.13.1"
   }
 }
