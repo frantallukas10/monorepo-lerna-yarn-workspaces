@@ -1,3 +1,3 @@
 module.exports = () => {
-  return "hello from common";
+  return "hello from common2";
 };
