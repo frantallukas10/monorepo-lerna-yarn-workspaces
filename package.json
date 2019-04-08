@@ -1,24 +1,20 @@
 {
   "private": true,
   "name": "yarn-workspace-example",
-  "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node packages/server/index.js",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
-    "test": "lerna run test"
+    "test:custom": "lerna run test --scope={@yarn-workspace-example/common, @yarn-workspace-example/server}",
+    "test": "lerna run test",
+    "test:only:server": "lerna run test --scope=@yarn-workspace-example/server"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Ing. Lukáš Frantál",
   "license": "ISC",
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "@yarn-workspace-example/common": "1.0.0"
-  },
   "devDependencies": {
     "lerna": "^3.13.1"
   }
