@@ -7,4 +7,4 @@
 
 ### youtube links about example
 [yarn workspace](https://www.youtube.com/watch?v=G8KXFWftCg0)<br>
-[Letran](https://www.youtube.com/watch?v=p6qoJ4apCjA&t=133s)<br>
+[Leran](https://www.youtube.com/watch?v=p6qoJ4apCjA&t=133s)<br>
