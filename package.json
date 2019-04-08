@@ -15,5 +15,8 @@
   ],
   "dependencies": {
     "@yarn-workspace-example/common": "1.0.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1"
   }
 }
