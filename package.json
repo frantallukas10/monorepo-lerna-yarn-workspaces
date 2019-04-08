@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "yarn-workspace-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node packages/server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@yarn-workspace-example/common": "1.0.0"
+  }
+}
