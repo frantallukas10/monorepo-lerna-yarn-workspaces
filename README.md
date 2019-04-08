@@ -1,4 +1,4 @@
-# Yarn workspace example
+# Monorepo: Lerna + yarn workspaces
 
 [Yarn workspace documentation](https://yarnpkg.com/lang/en/docs/workspaces/?fbclid=IwAR2wkfeMbDX0-5RHgN0QeNJCEup0FMXfLy7jJhC2uWDNdSQleCp7OrKMnGw)<br>
 [Lerna documentation](https://github.com/lerna/lerna#getting-started)<br>
