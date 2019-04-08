@@ -5,7 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node packages/server/index.js"
+    "start": "node packages/server/index.js",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+    "test": "lerna run test"
   },
   "keywords": [],
   "author": "",
